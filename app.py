@@ -3,7 +3,8 @@ from PIL import Image
 import requests
 from decouple import config
 
-my_url = config("API_URL")
+# my_url = config("API_URL")
+my_url = st.secrets("AUTH_TOKEN")
 
 def disease_detector():
     uploaded_file = st.file_uploader("Please upload a crop image")
