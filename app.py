@@ -3,7 +3,7 @@ from PIL import Image
 import requests
 # from decouple import config
 
-# my_url = config("API_URL")
+# my_url = config("API_KEY")
 my_url = st.secrets["API_KEY"]
 
 def disease_detector():
