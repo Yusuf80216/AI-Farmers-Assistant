@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import requests
-from decouple import config
+# from decouple import config
 
 # my_url = config("API_URL")
 my_url = st.secrets["AUTH_TOKEN"]
