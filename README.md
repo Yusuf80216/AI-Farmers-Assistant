@@ -1,8 +1,8 @@
 # AI Farmer's Assistant
 
 Features:
-- Leaf based Disease Prediction
-- Crop and Cost Prediction
+- Leaf based Disease Prediction (Image Detection & Image Classification)
+- Crop and Cost Prediction (Classification & Regression)
 #
 Tasks:
 - Farmers can upload crop images and detect the crop name and whether it is infected or healthy
